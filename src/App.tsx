@@ -87,10 +87,7 @@ export function App() {
     setStatus("草稿");
     setErrors({});
     setFileKey((value) => value + 1);
-    setNotice({
-      tone: "info",
-      text: "已载入示例数据，流程回到草稿。姓名、部门和物料都是虚构的。",
-    });
+    setNotice(null);
   }
 
   function resetDemo() {
